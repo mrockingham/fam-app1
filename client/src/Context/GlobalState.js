@@ -18,7 +18,7 @@ const [state, dispatch] =useReducer(AppReducer, initalState)
 
 async function getTransactions(){
     try {
-        const res = await axios.get('/api/v1/transactions')
+        const res = await axios.get('https://family-osfow.herokuapp.com/api/v1/transactions')
 
         
         dispatch({
@@ -37,7 +37,7 @@ async function getTransactions(){
 
 async function deleteTransaction(id){
    try {
-       await axios.delete(`/api/v1/transactions/${id}`)
+       await axios.delete(`https://family-osfow.herokuapp.com/api/v1/transactions/${id}`)
 
        dispatch({
            type: 'DELETE_TRANSACTION',
@@ -58,7 +58,7 @@ async function addTransaction(transaction){
         }
     }
     try {
-        const res = await axios.post('/api/v1/transactions', transaction, config)
+        const res = await axios.post('https://family-osfow.herokuapp.com/api/v1/transactions', transaction, config)
 
         dispatch({
             type: 'ADD_TRANSACTION',
