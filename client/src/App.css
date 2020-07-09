@@ -6,9 +6,10 @@
   border: 1px solid;
   padding: 10px;
   box-shadow: 5px 10px 8px 10px #888888;
-  width: 50%;
+  width: 80%;
   height: auto;
   margin: auto  ;
+  margin-left: 4%;
 }
 
 .App-logo {
@@ -90,7 +91,7 @@ color: green;
   left: 50%;
   transform: translate(-50%, -50%);
   color: black;
-  font-size: 3rem;
+  font-size: 1.4git rem;
   
 
 }
