@@ -33,7 +33,7 @@ const onSubmit = e =>{
               <div className= 'form-control'>
                   <label htmlFor='amount'><h3>
                       Amount <br/>
-                      negative (-) = expense<br/> positive (+) = income<br/></h3></label>
+                      Negative (-) = Expense<br/> Positive (+) = Income<br/></h3></label>
                       <input type="number" value={amount}
                     onChange={(e) => setAmount(e.target.value)}
                      placeholder='Enter amount...'/>

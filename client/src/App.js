@@ -11,13 +11,18 @@ function App() {
   return (
     <GlobalProvider>
     <div className='App'>
-      <h1>OSFOW EXPENCES</h1>
+      <div className='Header'>
+        <div className='HeaderText'><h1>OSFOW EXPENCES</h1></div>
+        
+      </div>
+      
     <Header />
     <div className = 'container'>
     <Balance />
     <IncomeExpences/>
     <TransationList/>
     <AddTransaction />
+    
     </div>
     </div>
     </GlobalProvider>
