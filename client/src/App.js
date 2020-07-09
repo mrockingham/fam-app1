@@ -10,8 +10,8 @@ import {GlobalProvider} from './Context/GlobalState'
 function App() {
   return (
     <GlobalProvider>
-    <div>
-      expence
+    <div className='App'>
+      <h1>OSFOW EXPENCES</h1>
     <Header />
     <div className = 'container'>
     <Balance />

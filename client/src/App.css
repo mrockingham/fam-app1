@@ -1,5 +1,14 @@
+
 .App {
   text-align: center;
+  color: whitesmoke;
+  /* background-color: red; */
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px 8px 10px #888888;
+  width: 75%;
+  height: 90VH;
+  margin: auto  ;
 }
 
 .App-logo {
@@ -35,4 +44,39 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.incomeExpense{
+  display: flex;
+  justify-content: space-around;
+}
+
+.income{
+color: green;
+}
+.expense{
+ color:red 
+}
+
+.btn {
+  background-color: black; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.btn {
+  transition-duration: 0.4s;
+}
+
+.btn:hover {
+  background-color: #141414; /* Green */
+  color: white;
 }

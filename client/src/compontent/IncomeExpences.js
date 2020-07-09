@@ -15,14 +15,14 @@ const IncomeExpences = () => {
     * -1).toFixed(2)
 
     return (
-        <div>
+        <div className="incomeExpense">
             <div>
-                <h4>Income</h4>
-                <p>{formatNumber(income)}</p>
+                <h2 className='income'>Income</h2>
+                <p><h2>{formatNumber(income)}</h2></p>
             </div>
             <div>
-                <h4>Expense</h4>
-                <p>{formatNumber(expense)}</p>
+                <h2  className='expense'>Expense</h2>
+                <p><h2>{formatNumber(expense)}</h2></p>
             </div>
             
         </div>

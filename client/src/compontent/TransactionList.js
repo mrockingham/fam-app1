@@ -11,7 +11,7 @@ const TransactionList = () => {
     },[])
     return (
         <>
-            <h3>History</h3>
+            <h2>History</h2>
                 <ul>
                     {transactions.map(transaction =>(<Transaction key={transactions.id} transaction ={transaction }/>))}
                    

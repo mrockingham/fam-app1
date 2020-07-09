@@ -21,19 +21,19 @@ const onSubmit = e =>{
 
     return (
         <>
-          <h3>Add new Transaction</h3>
+          <h2>Add new Transaction</h2>
           <form onSubmit={onSubmit}>
               <div className= 'form-control'>
-                  <label htmlFor="text">Text</label>
+                  <label htmlFor="text"><h2>Transaction name</h2></label>
                    <input type= 'text'
                     value={text}
                     onChange={(e) => setText(e.target.value)}
                     placeholder="enter Text..."/>
               </div>
               <div className= 'form-control'>
-                  <label htmlFor='amount'>
+                  <label htmlFor='amount'><h3>
                       Amount <br/>
-                      (negative - expense, positive - income)</label>
+                      negative (-) = expense<br/> positive (+) = income<br/></h3></label>
                       <input type="number" value={amount}
                     onChange={(e) => setAmount(e.target.value)}
                      placeholder='Enter amount...'/>

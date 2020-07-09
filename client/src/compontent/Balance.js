@@ -10,8 +10,8 @@ const Balance = () => {
 
     return (
         <>
-            <h4>Your Balance</h4>
-    <h1 id='balance'>{formatNumber(total)}</h1>
+            <h2>Your Balance</h2>
+    <h1 id='balance'>${formatNumber(total)}</h1>
         </>
     )
 }
